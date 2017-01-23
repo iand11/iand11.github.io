@@ -1,0 +1,17 @@
+body {
+    background-image: url("http://prod.static.bills.clubs.nfl.com/assets/img/wallpaper/logo_charging_1920.jpg");
+    background-position: center;
+}
+
+section#top {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+section#bottom {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 360px;
+}
