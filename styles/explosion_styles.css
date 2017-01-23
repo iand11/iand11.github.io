@@ -1,0 +1,18 @@
+body {
+    background-image: url("https://images3.alphacoders.com/755/thumb-1920-75559.jpg");
+    background-size: cover;
+}
+
+#top {
+    font-size: 60px;
+    text-align: center;
+}
+
+#bottom {
+    color: grey;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 500px;
+   
+}
+
