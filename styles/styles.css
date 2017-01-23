@@ -1,0 +1,179 @@
+section#main {
+    text-align: center;
+}
+
+.head {
+    background-image: url("http://prod.static.bills.clubs.nfl.com/assets/img/wallpaper/red-buff-tablet-bg.jpg");
+    background-size: contain;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 3px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+    padding: 85px;
+}
+
+.head h1 {
+    color: #fff;
+    font-size: 120px;
+    margin: 0;
+}
+
+.head p {
+    color: #fff;
+    font-size: 70px;
+    padding-top: 10px;
+}
+
+img.rex_waving {
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+p#under-photo {
+    text-align: center;
+    font-size: 30px;
+}
+
+section#after-pic {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: black;
+}
+
+table {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrnRl_wHA78DmI3nEWPAfb6pa4Dwk6B4P1tkTPi7II4-kyNNYVPg");
+    background-size: contain;
+    padding: 100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    font-family: "Gotham Cond", Helvetica, Arial, sans-serif;
+    color: #e62e00;
+}
+
+tr:hover {
+    background-color: #f5f5f5
+}
+
+tr > th {
+    color: black;
+    background-color: #e6e6e6
+}
+
+section#after-table {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    left: 15px;
+    right: 15px;
+    display: inline-block;
+}
+
+section#rex-pic-2 {
+    font-size: 25px;
+}
+
+article {
+    font-size: 25px;
+}
+
+#espn {
+    margin-top: 15px;
+}
+
+#mail-list {
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 90px;
+}
+
+section#form {
+    height: 100px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+section#form > button {
+    padding: 15px 32px;
+    text-align: center font-size: 16px;
+}
+
+section#espn-link {
+    background-image: url("http://prod.static.bills.clubs.nfl.com/assets/img/wallpaper/red-buff-tablet-bg.jpg");
+    background-size: contain;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    height: 300px;
+    padding: 85px;
+    color: #fff;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 1437px) {
+#top,
+#bottom,
+#left,
+#right ; {
+width:0px; background: white;
+  }
+}
+
+section#espn-link > a {
+    color: #fff;
+}
+
+#top,
+#bottom,
+#left,
+#right {
+    background: black;
+    position: fixed;
+}
+
+#left,
+#right {
+    top: 0;
+    bottom: 0;
+    width: 80px;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#top,
+#bottom {
+    left: 0;
+    right: 0;
+    width: 20px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}
