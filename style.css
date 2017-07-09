@@ -39,16 +39,13 @@ body{
 
 .section-title {
   font-size: 40px;
-  width:130px;
+  width:180px;
   text-align: center;
+  padding-bottom: 5px;
   margin:auto;
   margin-top:70px;
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
 }
-
-/*39*/
-/*119*/
-
 
 
 /*ABOUT SECTION*/
