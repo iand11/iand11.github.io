@@ -111,6 +111,7 @@ body{
 }
 
 .project {
+  vertical-align: top;
   width:450px;
   display: inline-block;
   margin:20px;
@@ -122,6 +123,28 @@ body{
   box-shadow: 3px 3px 3px #888888;
   border-radius:5px;
 }
+
+.project-title {
+  font-size: 25px;
+  color: #0099cc;
+  font-weight:bold;
+}
+
+.links a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #0099cc;
+}
+
+.github {
+  padding-right:10px;
+  border-right:1px solid black;
+}
+
+.live {
+  padding-left:5px;
+}
+
 /*PROJECTS SECTION*/
 
 
