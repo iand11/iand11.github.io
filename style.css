@@ -51,17 +51,46 @@ body{
 /*SCROLL BUTTONS*/
 
 .header {
+  margin-left: -8px;
   width:100%;
-  height: 40px;
+  height: 50px;
   position: fixed;
-  /*background-color: white;*/
+  background-color: transparent;
+  transition: all 1s ease;
+  opacity: 0.6;
+}
+
+.ian {
+  display: inline-block;
+  font-size: 40px;
+  width:90px;
+  margin:5px 0px 0px 25px;
+  font-weight: 700;
+  visibility: hidden;
+  cursor:pointer;
+  transition: all 0.3s ease;
+}
+
+.ian:hover{
+  color:#0099cc;;
+}
+
+.show {
+  visibility: visible;
+  transition: all 0.5s ease;
+}
+
+.white {
+  background-color: white;
+  opacity: 1;
 }
 
 .scroll-buttons {
+  display: inline-block;
   float: right;
-  /*margin-top: 20px;*/
   margin-right:20px;
-  font-size: 30px;
+  font-weight: 700;
+  font-size: 40px;
   background-color: transparent;
   border:none;
   outline: none;
@@ -70,7 +99,6 @@ body{
 
 .scroll-buttons:hover{
   cursor: pointer;
-  /*border-bottom:2px solid;*/
   color:#0099cc;
 }
 
