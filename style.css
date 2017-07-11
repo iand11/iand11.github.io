@@ -107,8 +107,9 @@ body{
 .about-section {
   /*height:60vh;*/
   background-color: #eee;
-  width:100%;
   margin: -70px auto;
+  width:105%;
+  margin-left: -8px;
 }
 
 .ian-pic {
@@ -135,8 +136,6 @@ body{
 
 /*SKILLS SECTION*/
 
-.skills-section {
-}
 
 .skills-container {
   width:80%;
@@ -151,8 +150,9 @@ body{
 
 .projects-section {
   background-color: #eee;
-  width:100%;
   margin: -8px;
+  width:105%;
+
 }
 
 .projects-container {
