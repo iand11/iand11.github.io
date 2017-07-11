@@ -22,6 +22,7 @@ body{
 }
 
 .hero-font {
+  width:500px;
   margin:10px;
   font-weight: 700;
   font-size: 40px;
@@ -44,9 +45,34 @@ body{
   padding-bottom: 5px;
   margin:auto;
   margin-top:70px;
-  border-bottom: 1px solid;
+  /*border-bottom: 1px solid;*/
 }
 
+/*SCROLL BUTTONS*/
+
+.header {
+  width:100%;
+  height: 40px;
+  position: fixed;
+  /*background-color: white;*/
+}
+
+.scroll-buttons {
+  float: right;
+  /*margin-top: 20px;*/
+  margin-right:20px;
+  font-size: 30px;
+  background-color: transparent;
+  border:none;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.scroll-buttons:hover{
+  cursor: pointer;
+  /*border-bottom:2px solid;*/
+  color:#0099cc;
+}
 
 /*ABOUT SECTION*/
 
