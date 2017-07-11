@@ -3,6 +3,7 @@ $(document).ready(function() {
   $(".2").delay(800).fadeIn(1500);
   $(".3").delay(1600).fadeIn(1500);
   $(".4").delay(2400).fadeIn(1500);
+  $(".header").delay(2700).fadeIn(1500);
   aboutButtonListener();
   skillsButtonListener();
   projectsButtonListener();
