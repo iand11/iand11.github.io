@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,37 +14,51 @@
 
 <body>
   <div class="header">
-    <button class="contact-button scroll-buttons">contact</button>
-    <button class="projects-button scroll-buttons">projects</button>
-    <button class="skills-button scroll-buttons">skills</button>
-    <button class="about-button scroll-buttons">about</button>
     <p class='ian'>ian</p>
+    <div class="links">
+      <button class="contact-button scroll-buttons">contact</button>
+      <button class="projects-button scroll-buttons">projects</button>
+      <button class="skills-button scroll-buttons">skills</button>
+      <button class="about-button scroll-buttons">about</button>
+    </div>
   </div>
   <div class="hero-page">
-    <p class="hero-font">Hi I'm Ian</p>
-    <p class="hero-font-add-items 1">I'm a front-end developer</p>
-    <div class="lower-left">
+    <div class="hero-text">
+      <p class="hero-font">Hi I'm Ian</p>
+      <p class="hero-font-add-items 1">I'm a front-end developer</p>
       <p class="hero-font-add-items 2">musician</p>
       <p class="hero-font-add-items 3">song writer</p>
       <p class="hero-font-add-items 4">& burrito enthusiast</p>
     </div>
   </div>
   <div class="about-section">
-    <p class="section-title"><span>About</span></p>
-    <img class="ian-pic" src="dbc_pic_filter.JPG" alt="">
-    <div class="about-text">
-      <p class="about-font">I am a songwriter turned front end developer who is looking for the next big challenge. I've worked in the music industry for the past 7 years and am now taking my creative and problem solving skills to the tech field.</p>
+    <div class="about-boxes">
+      <div class="box">
+        <i class="fa fa-desktop" aria-hidden="true"></i>
+        <h2>Work</h2>
+        <p>I am currently working as a web engineer at Automatic Labs, where my passion for development and creativity converge. I am not currently looking for freelance work but would love to get coffee and chat.</p>
+      </div>
+      <div class="box">
+        <i class="fa fa-music" aria-hidden="true"></i>
+        <h2>Music</h2>
+        <p>Before I decided to get into the world of development I worked as a songwriter and audio engineer. I composed and produced music for WWE and worked with award winning artists.</p>
+      </div>
+      <div class="box">
+        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+        <h2>Education</h2>
+        <p>I graduated from Berklee College of Music with a degree in professional music and I attended Dev Bootcamp graduating in 2017.</p>
+      </div>
     </div>
+
   </div>
   <div class="skills-section">
-    <p class="section-title">Skills</p>
     <div class="skills-container">
       <i class="devicon-javascript-plain colored dev-icon"></i>
-      <i class="devicon-ruby-plain-wordmark colored dev-icon"></i>
-      <i class="devicon-jquery-plain-wordmark colored dev-icon"></i>
+      <i class="devicon-react-original-wordmark colored dev-icon"></i>
       <i class="devicon-html5-plain-wordmark colored dev-icon"></i>
       <i class="devicon-css3-plain-wordmark colored dev-icon"></i>
-      <i class="devicon-react-original-wordmark colored dev-icon"></i>
+      <i class="devicon-ruby-plain-wordmark colored dev-icon"></i>
+      <i class="devicon-jquery-plain-wordmark colored dev-icon"></i>
       <i class="devicon-rails-plain-wordmark colored dev-icon"></i>
       <i class="devicon-git-plain-wordmark colored dev-icon"></i>
       <i class="devicon-github-plain-wordmark colored dev-icon"></i>
@@ -53,84 +68,128 @@
     </div>
   </div>
   <div class="projects-section">
-    <p class="section-title">Projects</p>
     <div class="projects-container">
       <div class="project">
-        <a class="project-link" href="https://github.com/iand11/personal-blog"><img class="project-image" src="./images/personal_blog.png" alt="oops"></a>
-        <p class="project-title">Personal Blog</p>
-        <p class="project-description">My Personal blog is a blog to document life after dev bootcamp concentrating on continued learning and fitness</p>
-        <p class="project-built-with">Tech Stack: Ruby, Javascript, Rails, HTML5, CSS3, SASS</p>
-        <div class="links">
-          <a class="github-only" href="https://github.com/iand11/personal-blog">github</a>
+        <a class="project-link" href="https://http://boots-on-the-ground.herokuapp.com"><img class="project-image" src="./images/boots_on_the_ground.png" alt="oops"></a>
+        <div class="project-text">
+          <div class="project-text-items">
+            <p class="project-title">Boots On The Ground</p>
+            <p class="project-description">A collaborative site where Dev Bootcamp grads can showcase their work, network with other alumni, and collaborate on future projects.</p>
+            <p class="project-built-with">Tech Stack: Ruby, Javascript, Rails, HTML5, CSS3, SASS</p>
+            <div class="links">
+              <button><a class="github-only" href="https://github.com/iand11/boot-on-the-ground">github</a></button>
+              <button><a class="live" href="http://boots-on-the-ground.herokuapp.com">live</a></button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="project">
-        <a class="project-link" href="https://the--list.herokuapp.com"><img class="project-image" src="./images/list_home.png" alt="oops"></a>
-        <p class="project-title">List</p>
-        <p class="project-description">List is a web application that allows the user the ability to manage a to do list digitally. Along with the ability to edit and manage the list on the web, the user also has the ability to add, delete, and view the list via sms text.</p>
-        <p class="project-built-with">Tech Stack: Ruby, Javascript, HTML 5, CSS 3, Jquery, Ajax, Sinatra, and Twilio's API.</p>
-        <div class="links">
-          <a class="github" href="https://github.com/iand11/list">github</a>
-          <a class="live" href="https://the--list.herokuapp.com">live</a>
+        <div class="project-text">
+          <div class="project-text-items">
+            <p class="project-title">Personal Blog</p>
+            <p class="project-description">My Personal blog is a blog to document life after dev bootcamp concentrating on continued learning and fitness</p>
+            <p class="project-built-with">Tech Stack: Ruby, Javascript, Rails, HTML5, CSS3, SASS</p>
+            <div class="links">
+              <button><a class="github-only" href="https://github.com/iand11/personal-blog">github</a></button>
+              <button><a class="live" href="https://ians-blog.herokuapp.com/">live</a></button>
+            </div>
+          </div>
         </div>
+        <a class="project-link" href="https://github.com/iand11/personal-blog"><img class="project-image" src="./images/personal_blog.png" alt="oops"></a>
       </div>
       <div class="project">
         <a class="project-link" href="https://crabmovies.herokuapp.com"><img class="project-image" src="./images/movies_review.png" alt="oops"></a>
-        <p class="project-title">Crab Movies</p>
-        <p class="project-description">Crab Movies is a web application that lists the top 250 movies with their actors, directors and writers. Registered and verified users can rate and review both the movies and actors.</p>
-        <p class="project-built-with">Tech Stack: Ruby, Rails, Javascript, Jquery, Ajax, HTML5, and CSS3</p>
-        <div class="links">
-          <a class="github" href="https://github.com/earlsabal/paperclip">github</a>
-          <a class="live" href="https://crabmovies.herokuapp.com">live</a>
+        <div class="project-text">
+          <div class="project-text-items">
+            <p class="project-title">Crab Movies</p>
+            <p class="project-description">Crab Movies is a web application that lists the top 250 movies with their actors, directors and writers. Registered and verified users can rate and review both the movies and actors.</p>
+            <p class="project-built-with">Tech Stack: Ruby, Rails, Javascript, Jquery, Ajax, HTML5, and CSS3</p>
+            <div class="links">
+              <button><a class="github" href="https://github.com/earlsabal/paperclip">github</a></button>
+              <button><a class="live" href="https://crabmovies.herokuapp.com">live</a></button>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="project">
+        <div class="project-text">
+          <div class="project-text-items">
+            <p class="project-title">List</p>
+            <p class="project-description">List is a web application that allows the user the ability to manage a to do list digitally. Along with the ability to edit and manage the list on the web, the user also has the ability to add, delete, and view the list via sms text.</p>
+            <p class="project-built-with">Tech Stack: Ruby, Javascript, HTML 5, CSS 3, Jquery, Ajax, Sinatra, and Twilio's API.</p>
+            <div class="links">
+              <button><a class="github" href="https://github.com/iand11/list">github</a></button>
+              <button><a class="live" href="https://the--list.herokuapp.com">live</a></button>
+            </div>
+          </div>
+        </div>
+        <a class="project-link" href="https://the--list.herokuapp.com"><img class="project-image" src="./images/list_home.png" alt="oops"></a>
       </div>
       <div class="project">
         <a class="project-link" href="https://the-player-line.herokuapp.com"><img class="project-image" src="./images/the_line_home.png" alt="oops"></a>
-        <p class="project-title">theLine</p>
-        <p class="project-description">The Line is a web application that allows the user to search for an athlete's name and it returns that athlete's statistics from the most recent year. The user can choose from either the NFL, NBA, or MLB. </p>
-        <p class="project-built-with">Tech Stack: Ruby, HTML5, CSS3, Javascript, Jquery, Ajax, Sinatra, and My Sports Feed's API</p>
-        <div class="links">
-          <a class="github" href="https://github.com/iand11/theLine">github</a>
-          <a class="live" href="https://the-player-line.herokuapp.com">live</a>
+        <div class="project-text">
+          <div class="project-text-items">
+            <p class="project-title">theLine</p>
+            <p class="project-description">The Line is a web application that allows the user to search for an athlete's name and it returns that athlete's statistics from the most recent year. The user can choose from either the NFL, NBA, or MLB. </p>
+            <p class="project-built-with">Tech Stack: Ruby, HTML5, CSS3, Javascript, Jquery, Ajax, Sinatra, and My Sports Feed's API</p>
+            <div class="links">
+              <button><a class="github" href="https://github.com/iand11/theLine">github</a></button>
+              <button><a class="live" href="https://the-player-line.herokuapp.com">live</a></button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="project">
-        <a class="project-link" href="https://dailyhabits.herokuapp.com"><img class="project-image" src="./images/habits_home.png" alt="oops"></a>
-        <p class="project-title">Habits</p>
-        <p class="project-description">Habits is a web and mobile app that lets the user journal their daily accomplishments, and see their progress with weekly statistics. The user is also sent daily notifications via text and is able to journal via text as well. </p>
-        <p class="project-built-with">Tech Stack: Ruby, Rails, Javascript, React, HTML5, CSS3, Twilio's API, Google Maps API, and Weather Underground's API</p>
-        <div class="links">
-          <a class="github" href="https://github.com/DawsonGraham/daily-habits">github</a>
-          <a class="live" href="https://dailyhabits.herokuapp.com">live</a>
+        <div class="project-text">
+          <div class="project-text-items">
+            <p class="project-title">Habits</p>
+            <p class="project-description">Habits is a web and mobile app that lets the user journal their daily accomplishments, and see their progress with weekly statistics. The user is also sent daily notifications via text and is able to journal via text as well. </p>
+            <p class="project-built-with">Tech Stack: Ruby, Rails, Javascript, React, HTML5, CSS3, Twilio's API, Google Maps API, and Weather Underground's API</p>
+            <div class="links">
+              <button><a class="github" href="https://github.com/DawsonGraham/daily-habits">github</a></button>
+              <button><a class="live" href="https://dailyhabits.herokuapp.com">live</a></button>
+            </div>
+          </div>
         </div>
+        <a class="project-link" href="https://dailyhabits.herokuapp.com"><img class="project-image" src="./images/habits_home.png" alt="oops"></a>
       </div>
       <div class="project">
         <a class="project-link" href="https://github.com/iand11/squad"><img class="project-image" src="./images/squad_home.png" alt="oops"></a>
-        <p class="project-title">Squad</p>
-        <p class="project-description">Squad is a web app that enables a connection and formation of teams for hackathons</p>
-        <p class="project-built-with">Tech Stack: Rails, HTML, CSS, Javascript, and used the Google Maps API</p>
-        <div class="links">
-          <a class="github-only" href="https://github.com/iand11/squad">github</a>
+        <div class="project-text">
+          <div class="project-text-items">
+            <p class="project-title">Squad</p>
+            <p class="project-description">Squad is a web app that enables a connection and formation of teams for hackathons</p>
+            <p class="project-built-with">Tech Stack: Rails, HTML, CSS, Javascript, and used the Google Maps API</p>
+            <div class="links">
+              <button><a class="github-only" href="https://github.com/iand11/squad">github</a></button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="project">
-        <a class="project-link" href="https://github.com/iand11/who_wrote_it"><img class="project-image" src="./images/who_wrote_it.png" alt="oops"></a>
-        <p class="project-title">Who Wrote It</p>
-        <p class="project-description">Who Wrote It is a web app that lets the user search for a songwriter and returns the songs that the songwriter has written</p>
-        <p class="project-built-with">Tech Stack: Ruby, Sinatra, HTML, CSS, Javascript, and used the iTunes API</p>
-        <div class="links">
-          <a class="github-only" href="https://github.com/iand11/who_wrote_it">github</a>
+        <div class="project-text">
+          <div class="project-text-items">
+            <p class="project-title">Who Wrote It</p>
+            <p class="project-description">Who Wrote It is a web app that lets the user search for a songwriter and returns the songs that the songwriter has written</p>
+            <p class="project-built-with">Tech Stack: Ruby, Sinatra, HTML, CSS, Javascript, and used the iTunes API</p>
+            <div class="links">
+              <button><a class="github-only" href="https://github.com/iand11/who_wrote_it">github</a></button>
+            </div>
+          </div>
         </div>
+        <a class="project-link" href="https://github.com/iand11/who_wrote_it"><img class="project-image" src="./images/who_wrote_it.png" alt="oops"></a>
       </div>
     </div>
   </div>
   <div class="contact">
-    <p class="section-title">Contact</p>
+    <!-- <p class="section-title">Contact</p> -->
+    <h1>Contact Me</h1>
     <div class="contacts-container">
       <a class="contact-link" href="https://github.com/iand11"><i class="devicon-github-plain dev-icon"></i></a>
       <a class="contact-link" href="https://www.linkedin.com/in/ian-driscoll"><i class="fa fa-linkedin fa-5x"></i></a>
-      <i class=" contact-link fa fa-envelope-square fa-5x"></i>
-      <a class="contact-link" href="https://resume.creddle.io/resume/4fjypreqmr1"><i class="fa fa-file-text-o fa-5x"></i></a>
+      <div class="email">
+        <button>email</button>
+      </div>
     </div>
   </div>
 </body>
