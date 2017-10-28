@@ -195,12 +195,13 @@ body {
   width: 100%;
   display: flex;
   flex-flow: row;
-  height: 25%;
+  /*height: %;*/
   justify-content: space-between;
 }
 
 .project-link {
   width: 50%;
+  height:500px;
 }
 
 .project-image {
@@ -378,11 +379,6 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
-/*  .scroll-buttons,
-  .ian,
-  .header {
-    display: none;
-  }*/
   .hero-text {
     margin-top: -35px;
   }
@@ -399,6 +395,9 @@ body {
   }
   .about-section {
     flex-flow: column;
+  }
+  .project-link {
+    height:350px;
   }
   .hero-text {
     padding-top: 0;
