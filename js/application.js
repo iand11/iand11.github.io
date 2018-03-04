@@ -1,4 +1,4 @@
-new WOW().init();
+// new WOW().init();
 
 $(document).ready(function() {
   $('.1').fadeIn(1800);
