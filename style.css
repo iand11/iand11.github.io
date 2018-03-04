@@ -12,6 +12,8 @@ body {
   font-family: -apple-system, 'BlinkMacSystemFont', Helvetica, Arial, sans-serif;
 }
 
+/*.wow { visibility: hidden; }*/
+
 .dev-icon {
   font-size: 110px;
   margin: 15px;
@@ -65,6 +67,7 @@ body {
   background-color: transparent;
   transition: background-color 1s ease;
   opacity: 0.6;
+  z-index: 99;
 }
 
 .ian {
@@ -100,9 +103,12 @@ body {
   opacity: 1;
 }
 
+.links {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 .scroll-buttons {
-  display: inline-block;
-  float: right;
   margin-right: 20px;
   font-weight: 700;
   font-size: 40px;
@@ -326,20 +332,21 @@ body {
 
 @media only screen and (max-width: 800px){
   .links {
-    display: block;
+    display: none;
+    width:90%;
+    margin: auto;
+    justify-content: space-around;
   }
   .scroll-buttons,
   .ian {
-    font-size: 25px;
-    margin-left: 0;
-    margin-right: 0;
+    font-size: 30px;
+    padding: 5px;
   }
   .ian {
-    margin-left: 0;
-    margin-right: 0;
+    display: none;
   }
   .hero-text {
-    margin:auto;
+    margin: -35px auto 0;
     text-align: center;
     padding-top: 40px;
     width:90%;
@@ -383,13 +390,25 @@ body {
     margin-top: -35px;
   }
 
+  .scroll-buttons {
+    padding: 0;
+    font-size: 20px;
+  }
+
   .ian, .links {
     display: none;
   }
   .links{
+    flex-flow: row nowrap;
+    width:90%;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-around;
   }
+
+  .scroll-buttons:last-child {
+    margin-left: 20px;
+  }
+
   .skills-container{
     width:100%;
   }

@@ -1,3 +1,5 @@
+new WOW().init();
+
 $(document).ready(function() {
   $('.1').fadeIn(1800);
   $('.2').delay(800).fadeIn(1500);
@@ -24,7 +26,7 @@ var scrollListener = function() {
     if (scroll > 100) {
       $('.header').addClass('white');
       $('.ian').addClass('show');
-      $('.links').show();
+      $('.links').show().css('display', 'flex');
     } else {
       $('.header').removeClass('white');
       $('.ian').removeClass('show');
