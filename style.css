@@ -121,6 +121,7 @@ body {
 .scroll-buttons:hover {
   cursor: pointer;
   color: #0099cc;
+  transform: scale(1.1)
 }
 
 /*ABOUT SECTION*/
@@ -403,10 +404,6 @@ body {
     width:90%;
     margin: auto;
     justify-content: space-around;
-  }
-
-  .scroll-buttons:last-child {
-    margin-left: 20px;
   }
 
   .skills-container{

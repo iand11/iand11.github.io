@@ -97,10 +97,6 @@ var contactButtonListener = function() {
 
 var ianButtonListener = function() {
   $('.ian').on('click', function() {
-    $('html, body').animate({
-        scrollTop: $('.hero-page').offset().top
-      },
-      1000
-    );
+    $('html, body').animate({ scrollTop: $('.hero-page').offset().top}, 1000);
   });
 };
