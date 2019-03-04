@@ -12,6 +12,7 @@ $(document).ready(function() {
   contactButtonListener();
   scrollListener();
   ianButtonListener();
+  emailButtonListener();
 });
 
 
@@ -100,3 +101,9 @@ var ianButtonListener = function() {
     $('html, body').animate({ scrollTop: $('.hero-page').offset().top}, 1000);
   });
 };
+
+var emailButtonListener = function() {
+  $('.email-button').on('click', function() {
+    window.location.href = "mailto:ian.driscoll.o@gmail.com";
+  })
+}
